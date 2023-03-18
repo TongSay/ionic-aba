@@ -1,0 +1,22 @@
+h5, p {
+    margin: 5px;
+  }
+  ion-item, ion-icon,ion-label{
+    color: var(--ion-color-light);
+  }
+  ion-content{
+    border-radius: 0 20px 20px 0;
+    --ion-background-color: #044367;
+  }
+  ion-avatar{
+    width: 100%;
+    height: inherit;
+    padding: 10px;
+  }
+  ion-avatar img{
+    width: 900px;
+  
+    overflow: hidden !important;
+  
+    border: 5px solid var(--ion-color-light) !important;
+  }

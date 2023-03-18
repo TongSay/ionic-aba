@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  menuType: any = 'push';
 
+  image = 'assets/icon/home/transfer.png';
   constructor() {}
 
 }
